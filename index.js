@@ -24,7 +24,7 @@ function merge (leftPart,rightPart) {
 // Binary Search Function START
 function binarySearch(arr, n) {
   count++;
-  if(arr.length < 2) return console.log(count + " kerede buldum");
+  if(arr.length < 2 || arr[parseInt(arr.length/2)]==n) return console.log(count + " kerede buldum");
 
   let midIndex = parseInt(arr.length / 2)
 
